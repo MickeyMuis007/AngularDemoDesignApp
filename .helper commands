@@ -1,0 +1,22 @@
+/* components for app-material-module */
+
+// MaterialDatePicker
+ng g c app-material-demo/components/MaterialDatePicker --module=app-material-demo/app-material-demo.module.ts
+
+// MaterialFormField
+ng g c app-material-demo/components/MaterialFormField --module=app-material-demo/app-material-demo.module.ts
+
+
+// Routing module
+ng generate module app-material-demo/app-material-demo-routing --flat --module=app-material-demo/app-material-demo.module.ts
+
+/* components for app-module */
+
+// Home Component
+ng g c components/Home
+
+// About Component
+ng g c components/About
+
+// Page Not Found
+ng g c components/PageNotFound
