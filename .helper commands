@@ -1,4 +1,4 @@
-/* components for app-material-module */
+/* app-material-module */
 
 // MaterialDatePicker
 ng g c app-material-demo/components/MaterialDatePicker --module=app-material-demo/app-material-demo.module.ts
@@ -10,7 +10,7 @@ ng g c app-material-demo/components/MaterialFormField --module=app-material-demo
 // Routing module
 ng generate module app-material-demo/app-material-demo-routing --flat --module=app-material-demo/app-material-demo.module.ts
 
-/* components for app-module */
+/* app-module */
 
 // Home Component
 ng g c components/Home
@@ -20,3 +20,17 @@ ng g c components/About
 
 // Page Not Found
 ng g c components/PageNotFound
+
+/* app-bootstrap-module */
+
+// Create module
+ng g module app-bootstrap
+
+// Create Accordion Component
+ng g c app-bootstrap/components/BootstrapAccordion --module=app-bootstrap/app-bootstrap.module.ts 
+
+// Create Alert Component
+ng g c app-bootstrap/components/BootstrapAlert --module=app-bootstrap/app-bootstrap.module.ts
+
+// Create Bootstrap Routing module
+ng generate module app-bootstrap/app-bootstrap-routing --flat --module=app-bootstrap/app-bootstrap.module.ts
