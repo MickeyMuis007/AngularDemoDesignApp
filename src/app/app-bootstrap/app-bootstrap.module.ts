@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { BootstrapAccordionComponent } from './components/bootstrap-accordion/accordion/bootstrap-accordion.component';
-import { BootstrapAlertComponent } from './components/bootstrap-alert/bootstrap-alert.component';
+import { BootstrapAlertDemoComponent } from './components/bootstrap-alert/bootstrap-alert-demo.component';
 import { AppBootstrapRoutingModule } from './app-bootstrap-routing.module';
 import { BootstrapAccordionDemoComponent } from './components/bootstrap-accordion/bootstrap-accordion-demo.component';
 import { AccordionOpenPanelAtATimeComponent } from './components/bootstrap-accordion/accordion-open-panel-at-a-time/accordion-open-panel-at-atime/accordion-open-panel-at-atime.component';
@@ -14,7 +14,7 @@ import { AccordionPreventChangeComponent } from './components/bootstrap-accordio
 import { AccordionConfigComponent } from './components/bootstrap-accordion/accordion-config/accordion-config.component';
 
 @NgModule({
-  declarations: [BootstrapAccordionComponent, BootstrapAlertComponent, BootstrapAccordionDemoComponent, AccordionOpenPanelAtATimeComponent, AccordionToggelComponent, AccordionHeaderComponent, AccordionPreventChangeComponent, AccordionConfigComponent],
+  declarations: [BootstrapAccordionComponent, BootstrapAlertDemoComponent, BootstrapAccordionDemoComponent, AccordionOpenPanelAtATimeComponent, AccordionToggelComponent, AccordionHeaderComponent, AccordionPreventChangeComponent, AccordionConfigComponent],
   imports: [
     CommonModule,
     AppBootstrapRoutingModule,
