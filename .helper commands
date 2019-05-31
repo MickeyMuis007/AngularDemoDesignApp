@@ -55,3 +55,6 @@ ng g c app-bootstrap/components/bootstrap-alert/AlertBasic --module=app-bootstra
 
 // Create ClosableAlert
 ng g c app-bootstrap/components/bootstrap-alert/ClosableAlert --module=app-bootstrap/app-bootstrap.module.ts
+
+// Create AlertSelfClosing
+ng g c app-bootstrap/components/bootstrap-alert/AlertSelfClosing --module=app-bootstrap/app-bootstrap.module.ts

@@ -14,9 +14,10 @@ import { AccordionPreventChangeComponent } from './components/bootstrap-accordio
 import { AccordionConfigComponent } from './components/bootstrap-accordion/accordion-config/accordion-config.component';
 import { AlertBasicComponent } from './components/bootstrap-alert/alert-basic/alert-basic.component';
 import { ClosableAlertComponent } from './components/bootstrap-alert/closable-alert/closable-alert.component';
+import { AlertSelfClosingComponent } from './components/bootstrap-alert/alert-self-closing/alert-self-closing.component';
 
 @NgModule({
-  declarations: [BootstrapAccordionComponent, BootstrapAlertDemoComponent, BootstrapAccordionDemoComponent, AccordionOpenPanelAtATimeComponent, AccordionToggelComponent, AccordionHeaderComponent, AccordionPreventChangeComponent, AccordionConfigComponent, AlertBasicComponent, ClosableAlertComponent],
+  declarations: [BootstrapAccordionComponent, BootstrapAlertDemoComponent, BootstrapAccordionDemoComponent, AccordionOpenPanelAtATimeComponent, AccordionToggelComponent, AccordionHeaderComponent, AccordionPreventChangeComponent, AccordionConfigComponent, AlertBasicComponent, ClosableAlertComponent, AlertSelfClosingComponent],
   imports: [
     CommonModule,
     AppBootstrapRoutingModule,
