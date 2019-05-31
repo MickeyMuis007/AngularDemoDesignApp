@@ -9,9 +9,10 @@ import { AppBootstrapRoutingModule } from './app-bootstrap-routing.module';
 import { BootstrapAccordionDemoComponent } from './components/bootstrap-accordion/bootstrap-accordion-demo.component';
 import { AccordionOpenPanelAtATimeComponent } from './components/bootstrap-accordion/accordion-open-panel-at-a-time/accordion-open-panel-at-atime/accordion-open-panel-at-atime.component';
 import { AccordionToggelComponent } from './components/bootstrap-accordion/accordion-toggel/accordion-toggel.component';
+import { AccordionHeaderComponent } from './components/bootstrap-accordion/accordion-header/accordion-header.component';
 
 @NgModule({
-  declarations: [BootstrapAccordionComponent, BootstrapAlertComponent, BootstrapAccordionDemoComponent, AccordionOpenPanelAtATimeComponent, AccordionToggelComponent],
+  declarations: [BootstrapAccordionComponent, BootstrapAlertComponent, BootstrapAccordionDemoComponent, AccordionOpenPanelAtATimeComponent, AccordionToggelComponent, AccordionHeaderComponent],
   imports: [
     CommonModule,
     AppBootstrapRoutingModule,
