@@ -43,3 +43,6 @@ ng g c app-bootstrap/components/bootstrap-accordion/AccordionToggel --module=app
 
 // Create AccordionHeader
 ng g c app-bootstrap/components/bootstrap-accordion/AccordionHeader --module=app-bootstrap/app-bootstrap.module.ts
+
+// Create AccordionPreventChange
+ng g c app-bootstrap/components/bootstrap-accordion/AccordionPreventChange --module=app-bootstrap/app-bootstrap.module.ts
