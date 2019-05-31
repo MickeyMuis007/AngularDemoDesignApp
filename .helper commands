@@ -37,3 +37,6 @@ ng g c app-bootstrap/components/BootstrapAlert --module=app-bootstrap/app-bootst
 
 // Create AccordionOpenPanelAtATime
 ng g c app-bootstrap/components/bootstrap-accordion/accordion-open-panel-at-a-time/AccordionOpenPanelAtATime --module=app-bootstrap/app-bootstrap.module.ts
+
+// Create AccordionToggle
+ng g c app-bootstrap/components/bootstrap-accordion/AccordionToggel --module=app-bootstrap/app-bootstrap.module.ts
