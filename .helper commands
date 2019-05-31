@@ -34,3 +34,5 @@ ng g c app-bootstrap/components/BootstrapAlert --module=app-bootstrap/app-bootst
 
 // Create Bootstrap Routing module
 ng generate module app-bootstrap/app-bootstrap-routing --flat --module=app-bootstrap/app-bootstrap.module.ts
+
+// Create AccordionDefault
