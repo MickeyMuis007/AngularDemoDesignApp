@@ -12,9 +12,10 @@ import { AccordionToggelComponent } from './components/bootstrap-accordion/accor
 import { AccordionHeaderComponent } from './components/bootstrap-accordion/accordion-header/accordion-header.component';
 import { AccordionPreventChangeComponent } from './components/bootstrap-accordion/accordion-prevent-change/accordion-prevent-change.component';
 import { AccordionConfigComponent } from './components/bootstrap-accordion/accordion-config/accordion-config.component';
+import { AlertBasicComponent } from './components/bootstrap-alert/alert-basic/alert-basic.component';
 
 @NgModule({
-  declarations: [BootstrapAccordionComponent, BootstrapAlertDemoComponent, BootstrapAccordionDemoComponent, AccordionOpenPanelAtATimeComponent, AccordionToggelComponent, AccordionHeaderComponent, AccordionPreventChangeComponent, AccordionConfigComponent],
+  declarations: [BootstrapAccordionComponent, BootstrapAlertDemoComponent, BootstrapAccordionDemoComponent, AccordionOpenPanelAtATimeComponent, AccordionToggelComponent, AccordionHeaderComponent, AccordionPreventChangeComponent, AccordionConfigComponent, AlertBasicComponent],
   imports: [
     CommonModule,
     AppBootstrapRoutingModule,

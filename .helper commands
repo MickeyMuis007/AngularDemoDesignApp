@@ -49,3 +49,6 @@ ng g c app-bootstrap/components/bootstrap-accordion/AccordionPreventChange --mod
 
 // Create AccordionConfig
 ng g c app-bootstrap/components/bootstrap-accordion/AccordionConfig --module=app-bootstrap/app-bootstrap.module.ts
+
+// Create AlertBasic
+ng g c app-bootstrap/components/bootstrap-alert/AlertBasic --module=app-bootstrap/app-bootstrap.module.ts
