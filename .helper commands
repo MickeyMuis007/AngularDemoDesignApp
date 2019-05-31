@@ -52,3 +52,6 @@ ng g c app-bootstrap/components/bootstrap-accordion/AccordionConfig --module=app
 
 // Create AlertBasic
 ng g c app-bootstrap/components/bootstrap-alert/AlertBasic --module=app-bootstrap/app-bootstrap.module.ts
+
+// Create ClosableAlert
+ng g c app-bootstrap/components/bootstrap-alert/ClosableAlert --module=app-bootstrap/app-bootstrap.module.ts
