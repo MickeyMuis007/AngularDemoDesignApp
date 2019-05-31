@@ -7,9 +7,10 @@ import { BootstrapAccordionComponent } from './components/bootstrap-accordion/ac
 import { BootstrapAlertComponent } from './components/bootstrap-alert/bootstrap-alert.component';
 import { AppBootstrapRoutingModule } from './app-bootstrap-routing.module';
 import { BootstrapAccordionDemoComponent } from './components/bootstrap-accordion/bootstrap-accordion-demo.component';
+import { AccordionOpenPanelAtATimeComponent } from './components/bootstrap-accordion/accordion-open-panel-at-a-time/accordion-open-panel-at-atime/accordion-open-panel-at-atime.component';
 
 @NgModule({
-  declarations: [BootstrapAccordionComponent, BootstrapAlertComponent, BootstrapAccordionDemoComponent],
+  declarations: [BootstrapAccordionComponent, BootstrapAlertComponent, BootstrapAccordionDemoComponent, AccordionOpenPanelAtATimeComponent],
   imports: [
     CommonModule,
     AppBootstrapRoutingModule,

@@ -26,13 +26,14 @@ ng g c components/PageNotFound
 // Create module
 ng g module app-bootstrap
 
+// Create Bootstrap Routing module
+ng generate module app-bootstrap/app-bootstrap-routing --flat --module=app-bootstrap/app-bootstrap.module.ts
+
 // Create Accordion Component
-ng g c app-bootstrap/components/BootstrapAccordion --module=app-bootstrap/app-bootstrap.module.ts 
+ng g c app-bootstrap/components/bootstrap-accordion/accordion/BootstrapAccordion --module=app-bootstrap/app-bootstrap.module.ts 
 
 // Create Alert Component
 ng g c app-bootstrap/components/BootstrapAlert --module=app-bootstrap/app-bootstrap.module.ts
 
-// Create Bootstrap Routing module
-ng generate module app-bootstrap/app-bootstrap-routing --flat --module=app-bootstrap/app-bootstrap.module.ts
-
-// Create AccordionDefault
+// Create AccordionOpenPanelAtATime
+ng g c app-bootstrap/components/bootstrap-accordion/accordion-open-panel-at-a-time/AccordionOpenPanelAtATime --module=app-bootstrap/app-bootstrap.module.ts
